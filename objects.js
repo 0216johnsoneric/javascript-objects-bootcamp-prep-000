@@ -8,3 +8,5 @@ function removeFromPlaylist(playlist, artistName){
   delete playlist[artistName]
   return playlist
 }
+
+var objects = { object: 'playlist' }
